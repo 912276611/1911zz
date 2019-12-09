@@ -10,7 +10,7 @@ body{background: #f6f6f6;}
 #toolbar .toolbar-rigth .gouwu a{margin-left: 40px;}
 #toolbar .toolbar-rigth .gouwu span:nth-of-type(1){display:inline-block;width: 18px;height: 18px;background: red;color:white ; text-align: center;line-height:18px;border-radius: 50%;}
 .h-t{background: #fff;}
-.header{background: #fff;}
+.header{background: #fff;padding-top:15px;}
 .header .area{position: relative;height: 100px;}
 .header .mainNav{height: 38px;}
 .header .area .area-frist{position:absolute;left: 0px;top: 17px;font:14px/1cv b4px "";color:red;}
@@ -87,7 +87,7 @@ body{background: #f6f6f6;}
 .top_bar .banner_r .banner_r-b ul li i.b-r-t1{background-position:-41px 0px ;}
 .top_bar .banner_r .banner_r-b ul li i.b-r-t2{background-position:-41px -41px ;}
 .top_bar .banner_r .banner_r-b ul li i.b-r-t3{background-position:-82px -41px ;}
-.new-users{padding-top: 30px;height: 280px;background-color: #f7f7f7;}
+.new-users{padding-top: 30px;height: 240px;background-color: #f7f7f7;}
 .new-users .update-time{padding: 0 16px;background: #fff;line-height: 60px;height: 63px;}
 .new-users .update-time .today{font-size: 20px;color: #333;font-weight: bold;float: left;}
 .new-users .update-time span{font-size: 16px;color: #bbb;margin-left: 10px;margin-right: 10px;font-weight: normal;}
@@ -108,7 +108,17 @@ body{background: #f6f6f6;}
 .new-userss{padding-top: 30px;height: 88px;background-color: #f7f7f7;margin-bottom: -25px;}
 
 .new-zz{padding-top: 30px;height: 280px;}
-.new-zz ul{background:#fff;list-style: none;height:280px;}
+.new-zz ul{background:#fff;list-style: none;height:280px;overflow: hidden;}
+
+.new-zz ul li{height:120px;width:280px;padding:15px 5px 0 12px;float: left;border-left: 1px #999999 solid;overflow: hidden;}
+.new-zz ul li i{display:block;width:150px;float: left;}
+.new-zz ul li i p{color:#666;font:16px/30px "";height:30px;}
+.new-zz ul li i span{color: red;font:14px/32px "";height:32px;}
+.new-zz ul li img{height:110px;width:110px;float:right;}
+.new-zz ul li.first{height:280px;border:none;}
+.new-zz ul li.first img{width:236px;height:174px;float: none;}
+.new-zz ul li.first p{font:700 16px/30px "";}
+.new-zz ul li.first span{color: red;font:14px/32px "";}
 .goods-list ul{padding-left: 14px;box-sizing: border-box;list-style: none;background: white;overflow: hidden;}
 .goods-list ul li{padding-left: 4px;cursor: pointer; width: 230px;background: #FFF;float: left;margin: 0 6px 12px 0;height: 290px;box-sizing: border-box;padding-top: 6px;border: 1px solid transparent;}
 .goods-list ul li:hover{border: 1px solid gainsboro;}
