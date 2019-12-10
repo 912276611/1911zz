@@ -15,14 +15,17 @@ body{background: #f6f6f6;}
 .header .mainNav{height: 38px;}
 .header .area .area-frist{position:absolute;left: 0px;top: 17px;font:14px/1cv b4px "";color:red;}
 .header .area .area-frist .logo{wibackground-image: dth: 210px;height: 52px;background-repeat: no-repeat;background-position: -78px -52px;}
+
 .header .area .lga .lz{font:14px/14px "";color:#666;}
+.header .area .lgb {float: right};}
 .header .area .area-second{position:absolute;right:290px;background-position: 0 0;height: 33px;width: 465px;top: 28px;background-repeat: no-repeat;background-image: url(../img/header-total.gif)}
 .header .area .area-seach{position:absolute; top: 25px;left:350px;width: 620px;height:37px;}
 
 .header .area .area-second a{display: block;float: left;height: 16px;width: 98px;margin: 0 0px 0 34px;}
-.header .area .area-seach .text{border:2px solid #3184dd;outline: 0 none;display: block;float: left;background: #fff;width: 500px;height: 35px;line-height: 30px;margin: 0px 0 0 10px;}
+.header .area .area-seach .text{padding-left:10px;border:2px solid #3184dd;outline: 0 none;display: block;float: left;background: #fff;width: 500px;height: 35px;line-height: 30px;margin: 0px 0 0 10px;}
 /*background-image:url(../img/header-total.gif) ;*/
 .header .area .area-seach .smt{color:#fff; background:#3184dd;display: block;border: 0 none;float: left;cursor: pointer;height: 39px;width: 90px;}
+
 .header .area .banner-right-code{display: block;position: absolute;right: -80px;top: 125px;z-index: 2;}
 .header .mainNav{width: 100%;height: 38px;border-bottom: 2px solid #3184dd;}
 .header .mainNav .f1{width:100%;height:100%;}
@@ -34,7 +37,7 @@ body{background: #f6f6f6;}
 .header .mainNav .navigation .current{background: #3184dd;width:210px;}
 .header .mainNav .navigation .lasthover{background-image: url(../img/phone-new-20151119.png);background-repeat: no-repeat;background-position: 12px 12px;}
 .header .mainNav .navigation .lasthover .code-tips{position: absolute;left: -28px;top: 40px;background-color: #fff;border: #e2e2e2 solid 1px;padding: 5px;width: 148px;height: 173px;z-index: 100}
-.header .mainNav .navigation .lasthover	.code-tips .code-box .code{ height: 148px;width: 148px;background-image:url(../img/jp-app-90-new.png) ;background-repeat: no-repeat;}
+.header .mainNav .navigation .lasthover	.code-tips .code-box .code{ height: 148px;width: 148px;background-image:url(../img/emw.png) ;background-repeat: no-repeat;}
 .fixed-banner{position: fixed;bottom: 0;width: 100%;height: 100px;z-index: 999999;text-align: center;padding: 10px 0;background: rgba(0,0,0,0.1);}
 .fixed-banner .fixed-banner_img{background-image: url(../img/henglan.jpg);display:inline-block;width:1200px;height: 100px;background-size: contain;background-repeat: no-repeat;background-position: center;position: relative;}
 .fixed-banner .close{position: absolute;right: 0px;top: -20px;width: 50px;height: 50px;background: silver;border-radius: 25px;box-shadow: 2px 2px 5px 0px black;cursor: pointer;}
@@ -111,7 +114,7 @@ body{background: #f6f6f6;}
 .new-zz ul{background:#fff;list-style: none;height:280px;overflow: hidden;}
 
 .new-zz ul li{height:120px;width:280px;padding:15px 5px 0 12px;float: left;border-left: 1px #999999 solid;overflow: hidden;}
-.new-zz ul li i{display:block;width:150px;float: left;}
+.new-zz ul li i{display:block;width:160px;float: left;}
 .new-zz ul li i p{color:#666;font:16px/30px "";height:30px;}
 .new-zz ul li i span{color: red;font:14px/32px "";height:32px;}
 .new-zz ul li img{height:110px;width:110px;float:right;}
@@ -129,18 +132,25 @@ body{background: #f6f6f6;}
 .pager .yewei .pgpreva span{cursor: pointer;box-shadow:1px 1px #E2E2E2; vertical-align: middle;background:white;color:gray; border: medium none;font-weight: bold;display: inline-block;margin-left: 1px;padding: 10px 15px;overflow: hidden;}
 .pager .yewei .pgpreva span:nth-of-type(1){background: #ff464e;color: white;}
 .pager .yewei .pgpreva{display: inline;}
-.foot{height: 351px; position: relative;margin: 0 auto;margin-top: 40px;background: #f9f9f9;z-index: 100;border-top: #ce003f solid 4px;}
+/*<i><b></b><span></span></i>*/
+.youqing{height:200px;background: #fff;width:1200px;margin: 0 auto;margin-top: 20px;overflow: hidden;}
+.youqing i{border-bottom: 2px solid #63c070;width:1200px;display: block;border: ;height:36px;padding:6px 0 0 6px;margin-bottom:10px;background: #f5f5f5;}
+.youqing i b{margin-right:10px;float: left;;display: block;width:20px;height:20px;background-image: url(../img/iconHome.png);background-position:0 -56px;}
+.youqing i span{font:700 24px/1 "";}
+.youqing a{height:34px;display: block;margin:0 20px 0 20px;color:#4c4c4c;white-space: nowrap;float: left;line-height: 34px;font:14px/1.5 "";;}
+.foot{height: 351px; position: relative;margin: 0 auto;margin-top: 40px;background: #f9f9f9;z-index: 100;}
 .foot .con-box-n{padding-top: 25px;}
 .foot .app-side-box{float: left;display: inline;width: 90px;}
-.foot .app-side-box .app-show{ background-image: url(../img/jp-app-90-new.png) ;background-size: contain;height: 90px;width: 90px;margin-top: 5px;}
+.foot .app-side-box .app-show{ background-image: url(../img/emw.png) ;background-size: contain;height: 90px;width: 90px;margin-top: 5px;}
 .foot .app-side-box .app-txt{margin: 10px 0;}
 .foot .con-left-info{padding-left: 65px;width: auto;overflow: hidden;display: inline-block;}
-.foot  .con-left-info dt {font-size: 14px;color: #333;font-weight: bold;margin-bottom: 10px;padding-left: 7px;}
-.foot  .con-left-info dd {margin-bottom: 5px;color: #666;}
+.foot  .con-left-info dt {font-size: 18px;color: #333;font-weight: bold;margin-bottom: 10px;padding-left: 7px;list-style: none;}
+.foot  .con-left-info dd {margin-bottom: 5px;color: #666;padding-left: 10px;}
 .foot  .con-left-info dl a {color: #666;font-size: 12px;}
-.foot .con-left-info dd i {width: 4px;height: 4px;overflow: hidden;border-radius: 50%;background: #c6c6c6;display: inline-block;margin-right: 5px;float: left;margin-top: 8px;}
-.foot .fl {float: left;display: inline;    width: 200px;}
-.foot  .con-menu{margin-top: 35px;float: right;display: inline;width: 161px;}
+
+.foot .fl {float: left;display: inline;width: 200px;}
+.foot .con-left-info dd{}
+.foot  .con-menu{float: right;display: inline;width: 180px;}
 .foot  .con-menu a{background: url(../img/service_add.gif);float: left; display: block;width: 86px;height: 35px;background-position: 0 -5px;}
 .foot  .con-menu span{float: left;padding-left: 10px;width: 65px;font-size: 12px;color:#666;;}
 .foot  .con-menu .f12{  float: left;width: auto;  vertical-align: middle;line-height: 24px;    font-size: 12px;color: #666;}
