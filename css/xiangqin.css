@@ -108,9 +108,9 @@
 
 .foot .fl {float: left;display: inline;width: 200px;}
 .foot .con-left-info dd{}
-.foot  .con-menu{float: right;display: inline;width: 180px;}
+.foot  .con-menu{float: right;display: inline;width: 180px;margin: 10px 40px 0 0;}
 .foot  .con-menu a{background: url(../img/service_add.gif);float: left; display: block;width: 86px;height: 35px;background-position: 0 -5px;}
-.foot  .con-menu span{float: left;padding-left: 10px;width: 65px;font-size: 12px;color:#666;;}
+.foot  .con-menu span{float: left;padding-left: 10px;width: 80px;font-size: 12px;color:#666;;}
 .foot  .con-menu .f12{  float: left;width: auto;  vertical-align: middle;line-height: 24px;    font-size: 12px;color: #666;}
 .foot .links{font-size: 12px; color: #999999;white-space: nowrap;height: 20px;padding: 10px 0px;border-bottom: 1px dotted #ccc;color: #999999;white-space: nowrap;overflow: hidden;margin: 0 auto;}
 .foot .links span {display: block;overflow: hidden;float: left;}

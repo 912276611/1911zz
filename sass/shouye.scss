@@ -10,55 +10,54 @@ body {
 #toolbar {
     background: #f6f6f6;
     height: 30px;
+    
+    .toolbar-rigth {
+        float: right;
 
+        .gouwu {
+            width: 107px;
+            background-image: url(../img/icon-total.png);
+            background-position: 15px -150px;
+            background-repeat: no-repeat;
 
-.toolbar-rigth {
-    float: right;
+            a {
+                margin-left: 40px;
+            }
 
-    .gouwu {
-        width: 107px;
-        background-image: url(../img/icon-total.png);
-        background-position: 15px -150px;
-        background-repeat: no-repeat;
-
-        a {
-            margin-left: 40px;
-        }
-
-        span:nth-of-type(1) {
-            display: inline-block;
-            width: 18px;
-            height: 18px;
-            background: red;
-            color: white;
-            text-align: center;
-            line-height: 18px;
-            border-radius: 50%;
-        }
-    }
-
-    div {
-        float: left;
-        font-size: 12px;
-        height: 30px;
-        box-sizing: border-box;
-        padding: 8px 0px;
-
-        .red {
-            color: red;
-        }
-
-        a {
-            color: black;
-            margin-left: 15px;
-
-            &:hover {
-                color: red;
+            span:nth-of-type(1) {
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                background: red;
+                color: white;
+                text-align: center;
+                line-height: 18px;
+                border-radius: 50%;
             }
         }
 
+        div {
+            float: left;
+            font-size: 12px;
+            height: 30px;
+            box-sizing: border-box;
+            padding: 8px 0px;
+
+            .red {
+                color: red;
+            }
+
+            a {
+                color: black;
+                margin-left: 15px;
+
+                &:hover {
+                    color: red;
+                }
+            }
+
+        }
     }
-}
 }
 
 .h-t {

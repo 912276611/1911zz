@@ -65,6 +65,7 @@ class csshtml{
 		this.zhu=document.getElementsByClassName("zhuce")[0];
 		this.biannum=document.getElementsByClassName("biannum")[0];
 		this.xiangshang=document.getElementsByClassName("xiangshang")
+		this.xiangxia=document.getElementsByClassName("xiangxia")
 		this.int();
 		this.mingzi();
 	}
@@ -299,9 +300,13 @@ class csshtml{
 	}
 	}
 	image(){
+		// 通过标签获取所有img元素
 		this.imga=this.xuan.getElementsByTagName("img");
+		// 循环每个img元素 
 		for(let i=0;i<this.imga.length;i++){
+			// 判断img的src属性是否为空，图片是否还未加载
 			if(this.imga[i].src==""){
+				// 当页面卷动值和视口高度只和大于图片距离页面顶部距离时 图片从自定义属性中获得src属性值
 				if(this.imga[i].offsetTop<(document.documentElement.scrollTop+document.documentElement.clientHeight)){
 					this.imga[i].src=this.imga[i].getAttribute("datasrc");
 				}

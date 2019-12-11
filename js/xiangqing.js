@@ -143,7 +143,7 @@ class xuanran{
 										<div class="d-info">
 											<div class="djs" style="right: 20px;">
 												剩余:
-												<span class="date" style="display:inline-block;width:110px;height:32px"></span>
+												<span class="date" style="display:inline-block;width:130px;height:32px"></span>
 											</div>
 											<div class="tm-price">
 												<dd class="price global-price0">
@@ -287,7 +287,7 @@ class xuanran{
 			return " "+tians+"天"+parseInt(hour)+"时"+parseInt(fen)+"分"+parseInt(min)+"秒";
 		}
 		setInterval(function(){
-				_this.djs.innerText=da("2019-12-12")
+				_this.djs.innerText=da("2019-12-18")
 				// console.log(_this.djs)
 		},1000);
 		
@@ -331,9 +331,16 @@ class xuanran{
 							_this.id=JSON.parse(localStorage.getItem("xiangqing"))[0];
 							_this.panduan();
 							_this.jiajia();
-							window.location.href='juanshop.html';
+							window.location.href='shop.html';
 							window.event.returnValue=false;
 						}
+				} else {
+					this.man.onclick = function() {
+						alert('您还未登录');
+					}
+					this.kuai.onclick = function() {
+						alert('您还未登录');
+					}
 				}
 		}
 	panduan(){
