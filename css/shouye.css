@@ -8,7 +8,7 @@ body{background: #f6f6f6;}
 #toolbar .toolbar-rigth div .red{color: red;}
 #toolbar .toolbar-rigth .gouwu{width: 107px;background-image: url(../img/icon-total.png);background-position:15px -150px;background-repeat: no-repeat;}
 #toolbar .toolbar-rigth .gouwu a{margin-left: 40px;}
-#toolbar .toolbar-rigth .gouwu span:nth-of-type(1){display:inline-block;width: 18px;height: 18px;background: red;color:white ; text-align: center;line-height:18px;border-radius: 50%;}
+#toolbar .toolbar-rigth .gouwu span:nth-of-type(1){display:inline-block;width: 18px;height: 18px;background:#3184dd;color:white ; text-align: center;line-height:18px;border-radius: 50%;}
 .h-t{background: #fff;}
 .header{background: #fff;padding-top:15px;}
 .header .area{position: relative;height: 100px;}

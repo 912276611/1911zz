@@ -179,13 +179,13 @@ class xuanran{
 										</div>
 									</div>
 									<div class="J-other">
-										<span class="onr">颜色:</span>
+										<span class="onr">使用方法:</span>
 										<span class="color_wraper">
 											<ul>
 												<li class="cur">
-													<a title="黄色">
+													<a title="内服">
 														<img src="${this.res[i].img}" alt="" width="20px";height="20px" style="vertical-align:middle;">
-														<span>黄色</span>
+														<span>内服</span>
 													</a>
 												</li>
 											</ul>

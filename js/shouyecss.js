@@ -47,7 +47,7 @@ var bannera=new baner(boxa,left,right,img,list,bannr);
 var ptime=document.getElementsByClassName("date");
 setInterval(function(){
 	for(var i=0;i<ptime.length;i++){
-		ptime[i].innerHTML=`<span>${da("2019-12-12")}</span>`
+		ptime[i].innerHTML=`<span>${da("2020-01-01")}</span>`
 	}
 },1000);
 var xuan=document.getElementsByClassName("xuan")[0];
@@ -64,34 +64,9 @@ class csshtml{
 		this.deng=document.getElementsByClassName("denglu")[0];
 		this.zhu=document.getElementsByClassName("zhuce")[0];
 		this.biannum=document.getElementsByClassName("biannum")[0];
-		this.xiangshang=document.getElementsByClassName("xiangshang");
-		this.ali = document.querySelector(".top_bar").querySelectorAll("li");
+		this.xiangshang=document.getElementsByClassName("xiangshang")
 		this.int();
 		this.mingzi();
-		this.list();
-	}
-	list(){
-		var that = this;
-		for(var i=0;i<this.ali.length-1;i++){
-			let div = document.createElement("div");
-			this.ali[i].appendChild(div);
-			div.style.width = 200 + "px";
-			div.style.height = 100 + "px";
-			div.style.display = "none";
-			div.style.position = "absolute";
-			div.style.left = 220 + "px";
-			div.style.backgroundColor = "#000";
-			div.style.zIndex = 999;
-			this.ali[i].style.position = "relative";
-			this.ali[i].onmouseenter=function(){
-				div.style.display = "block";
-				div.innerHTML= this.innerHTML;
-			}
-			this.ali[i].onmouseleave=function(){
-				div.style.display = "none";
-				div.innerHTML = "";
-			}	
-		}
 	}
 	int(){
 		var _this=this;
@@ -101,6 +76,7 @@ class csshtml{
 			_this.load();
 		})
 	}
+	
 	mingzi(){
 		if(localStorage.getItem("cun")){
 			this.name=JSON.parse(localStorage.getItem("cun")).name;
