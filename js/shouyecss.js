@@ -64,8 +64,8 @@ class csshtml{
 		this.deng=document.getElementsByClassName("denglu")[0];
 		this.zhu=document.getElementsByClassName("zhuce")[0];
 		this.biannum=document.getElementsByClassName("biannum")[0];
-		this.xiangshang=document.getElementsByClassName("xiangshang")
-		this.xiangxia=document.getElementsByClassName("xiangxia")
+		this.xiangshang=document.getElementsByClassName("xiangshang");
+		this.xiangxia=document.getElementsByClassName("xiangxia");
 		this.int();
 		this.mingzi();
 	}
